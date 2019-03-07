@@ -1,3 +1,5 @@
+/* START MIDDLE */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +11,54 @@ html, body {
     height: 100%;
 }
 
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
 body {
     background: url(../images/slider/bgSliderOne.jpg) no-repeat;
     background-size: 100%;
     transition-duration: 1000ms;
+}
+
+div#content {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* END MIDDLE */
+
+/* START MENU */
+
+p.menuBtn {
+    display: inline;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+img.menuBar {
+    display: inline-block;
+    height: 3.5em;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+    transition-duration: 500ms;
+}
+
+
+nav {
+    position: fixed;
+    top: 20%;
+    height: 60%;
+    width: 15%;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+
+
+    background-color: white;
 }

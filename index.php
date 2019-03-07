@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <title>Makito Tools</title>
+        <title>Makita Tools</title>
 
         <meta charset="UTF-8">
         <meta name="theme-color" content="rgb(255, 255, 255)">
@@ -20,7 +20,11 @@
 
     <body>
 
+    <div id="content">
         <header>
+            <p class="menuBtn">
+                <img src="/public/images/menu.svg" alt="bars" class="menuBar">
+            </p>
             <nav>
                 <ul class="menu">
                     <li>
@@ -38,7 +42,7 @@
                 </ul>
             </nav>
         </header>
-        
+    </div>
         <script>
              // Проверка на поддержку service worker
             if('serviceWorker' in navigator) {
