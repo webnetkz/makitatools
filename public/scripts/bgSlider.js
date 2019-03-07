@@ -19,7 +19,7 @@ function next() {
 
     setTimeout(function() {
         bg.style.cssText =
-        `background: url(../public/images/slider/bgSliderOne.jpg) no-repeat cover;
+        `background: url(../public/images/slider/bgSliderOne.jpg) no-repeat;
             background-size: 100%;
             height: 100%;`;
     }, 8000);

@@ -11,7 +11,10 @@ self.addEventListener('install', function(e) {
        '/public/images/logoWebnet.png',
        '/public/scripts/main.js',
        '/public/styles/style.css',
-       'public/styles/mobileStyle.css'
+       '/public/styles/mobileStyle.css',
+       'public/images/sleder/bgSliderOne.jpg',
+       'public/images/slider/bgSliderOne.jpg',
+       'public/images/slider/bgSliderOne.jpg'
      ]);
    })
  );
