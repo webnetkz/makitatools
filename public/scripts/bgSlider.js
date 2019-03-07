@@ -1,4 +1,3 @@
-
 // START SLIDER DESKTOP
 
 var bg = document.querySelector('body');
@@ -20,7 +19,7 @@ function next() {
 
     setTimeout(function() {
         bg.style.cssText =
-        `background: url(../public/images/slider/bgSliderOne.jpg) no-repeat;
+        `background: url(../public/images/slider/bgSliderOne.jpg) no-repeat cover;
             background-size: 100%;
             height: 100%;`;
     }, 8000);
