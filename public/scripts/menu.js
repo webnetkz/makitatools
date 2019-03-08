@@ -1,14 +1,21 @@
-var menuBtn = document.querySelector('.menuBtn');
-
-menuBtn.addEventListener('click', showMenu);
-
-
-function showMenu() {
+// Отображение - скрытие меню
+function handlerMenu() {
     var menu = document.querySelector('nav');
-    menu.className = 'visible';
+    var menuClass = menu.getAttribute('class');
+    
+    switch(menuClass) {
+        case 'hiddenMenu':
+        menu.setAttribute('class', 'visibleMenu');
+        break;
 
-    menuBtn.setAttribute('onclick', `
-        var menu = document.querySelector('nav');
-        menu.className = 'hidden';        
-    `);
+        case 'visibleMenu':
+        menu.setAttribute('class', 'hiddenMenu');
+        break;
+    }
 }
+// Обновить событие
+setInterval(
+    `var menu = document.querySelector('nav');
+    menu.setAttribute('onclick', 'handlerMenu();');`
+,500
+);

@@ -67,7 +67,8 @@ nav {
     background-color: rgb(105,79,135);
     border-top-right-radius: 23px;
     border-bottom-right-radius: 23px;
-    box-shadow: 3px 3px 10px rgb(0, 0, 0); 
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    transition: 100ms;
 }
 
 li.menuItem > a {
@@ -78,3 +79,10 @@ li.menuItem > a {
     box-shadow: 0 0 4px black;
 }
 
+.visibleMenu {
+    visibility: visible;
+}
+
+.hiddenMenu {
+    visibility: hidden;
+}

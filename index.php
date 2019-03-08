@@ -22,11 +22,11 @@
 
     <div id="content">
         <header>
-            <p class="menuBtn">
+            <p class="menuBtn" onclick="handlerMenu();">
                 <img src="/public/images/menu.svg" alt="bars" class="menuBar">
                 <span class="menuText">МЕНЮ</span>
             </p>
-            <nav class="hidden">
+            <nav class="hiddenMenu">
                 <ul class="menu">
                     <li class="menuItem">
                         <a href="#">Главная</a>
