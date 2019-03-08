@@ -42,9 +42,17 @@ p.menuBtn {
     top: 10px;
 }
 
+span.menuText {
+    display: block;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
 img.menuBar {
     display: inline-block;
-    height: 3.5em;
+    height: 3em;
     border-radius: 50%;
     box-shadow: 0 3px 10px rgb(0, 0, 0);
     transition-duration: 500ms;
@@ -62,3 +70,4 @@ nav {
 
     background-color: white;
 }
+

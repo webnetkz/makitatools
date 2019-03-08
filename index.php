@@ -24,6 +24,7 @@
         <header>
             <p class="menuBtn">
                 <img src="/public/images/menu.svg" alt="bars" class="menuBar">
+                <span class="menuText">МЕНЮ</span>
             </p>
             <nav>
                 <ul class="menu">
@@ -53,5 +54,6 @@
         </script>
         <script src="/public/scripts/main.js"></script>
         <script src="/public/scripts/bgSlider.js"></script>
+        <script src="/public/scripts/menu.js"></script>
     </body>
 </html>
