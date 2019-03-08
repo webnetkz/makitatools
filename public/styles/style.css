@@ -67,8 +67,14 @@ nav {
     background-color: rgb(105,79,135);
     border-top-right-radius: 23px;
     border-bottom-right-radius: 23px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0); 
+}
 
-
-
+li.menuItem > a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 4px black;
 }
 

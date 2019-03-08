@@ -28,16 +28,16 @@
             </p>
             <nav class="hidden">
                 <ul class="menu">
-                    <li>
+                    <li class="menuItem">
                         <a href="#">Главная</a>
                     </li>
-                    <li>
+                    <li class="menuItem">
                         <a href="#">Продукция</a>
                     </li>
-                    <li>
+                    <li class="menuItem">
                         <a href="#">О нас</a>
                     </li>
-                    <li>
+                    <li class="menuItem">
                         <a href="#">Контакты</a>
                     </li>
                 </ul>
