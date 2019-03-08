@@ -23,8 +23,8 @@
     <div id="content">
         <header>
             <p class="menuBtn" onclick="handlerMenu();">
-                <img src="/public/images/menu.svg" alt="bars" class="menuBar">
                 <span class="menuText">МЕНЮ</span>
+                <img src="/public/images/menu.svg" alt="bars" class="menuBar">
             </p>
             <nav class="hiddenMenu">
                 <ul class="menu">

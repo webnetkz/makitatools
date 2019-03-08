@@ -28,7 +28,7 @@ body {
 div#content {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* END MIDDLE */
@@ -44,7 +44,7 @@ p.menuBtn {
 
 span.menuText {
     display: block;
-    margin-top: 3px;
+    margin-bottom: 3px;
     color: rgb(255, 255, 255);
     font-weight: 700;
     text-shadow: 0 0 8px rgb(0, 0, 0);
@@ -54,35 +54,57 @@ img.menuBar {
     display: inline-block;
     height: 3em;
     border-radius: 50%;
-    box-shadow: 0 3px 10px rgb(0, 0, 0);
+    box-shadow: 0 3px 15px rgb(0, 0, 0);
     transition-duration: 500ms;
 }
 
+img.menuBar:active {
+    box-shadow: 0 0 0px;
+}
 
 nav {
     position: fixed;
     top: 20%;
-    height: 60%;
+    height: 30%;
     width: 15%;
-    background-color: rgb(105,79,135);
+    background-color: rgb(105, 79, 135);
     border-top-right-radius: 23px;
     border-bottom-right-radius: 23px;
     box-shadow: 3px 3px 10px rgb(0, 0, 0);
     transition: 100ms;
 }
 
+ul.menu {
+    height: 100%;
+    margin-top: 20%;
+}
+
 li.menuItem > a {
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    width: 100%;
-    box-shadow: 0 0 4px black;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(235, 186, 22);
+    font-weight: 700;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    transition: 500ms;
+}
+
+li.menuItem > a:hover {
+    width: 90%;
 }
 
 .visibleMenu {
     visibility: visible;
+    top: 20%;
 }
 
 .hiddenMenu {
     visibility: hidden;
+    top: 100%;
 }
