@@ -64,10 +64,11 @@ nav {
     top: 20%;
     height: 60%;
     width: 15%;
+    background-color: rgb(105,79,135);
     border-top-right-radius: 23px;
     border-bottom-right-radius: 23px;
 
 
-    background-color: white;
+
 }
 

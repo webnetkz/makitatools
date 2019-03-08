@@ -2,9 +2,15 @@ var menuBtn = document.querySelector('.menuBtn');
 
 menuBtn.addEventListener('click', showMenu);
 
+
 function showMenu() {
-    alert(222);
+    var menu = document.querySelector('nav');
+    menu.className = 'visible';
+
     menuBtn.setAttribute('onclick', `
-        alert(123);
+        var menu = document.querySelector('nav');
+        menu.className = 'hidden';
     `);
+
+    setTimeout(function() { menuBtn.setAttribute('onclick', '')}, 5000);
 }

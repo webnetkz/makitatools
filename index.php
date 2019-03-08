@@ -26,7 +26,7 @@
                 <img src="/public/images/menu.svg" alt="bars" class="menuBar">
                 <span class="menuText">МЕНЮ</span>
             </p>
-            <nav>
+            <nav class="hidden">
                 <ul class="menu">
                     <li>
                         <a href="#">Главная</a>
@@ -46,11 +46,11 @@
     </div>
         <script>
              // Проверка на поддержку service worker
-            if('serviceWorker' in navigator) {
+            /*if('serviceWorker' in navigator) {
                 navigator.serviceWorker
                     .register('/sw.js')
                     .then(function() { console.log("Service Worker Registered"); });
-            }
+            }*/
         </script>
         <script src="/public/scripts/main.js"></script>
         <script src="/public/scripts/bgSlider.js"></script>
