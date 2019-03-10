@@ -54,7 +54,7 @@ img.menuBar {
     display: inline-block;
     height: 3em;
     border-radius: 50%;
-    box-shadow: 0 3px 15px rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px rgb(235, 186, 22);
     transition-duration: 500ms;
 }
 
@@ -101,7 +101,7 @@ li.menuItem > a:hover {
 
 .visibleMenu {
     visibility: visible;
-    top: 20%;
+    top: 35%;
 }
 
 .hiddenMenu {
